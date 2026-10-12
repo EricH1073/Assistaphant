@@ -31,6 +31,12 @@ const int DHT_PIN = 3;           // XIAO D1: DHT11 data
 const int BUTTON_ONE_PIN = 4;    // XIAO D2: opens/confirms the radial menu
 const int BUTTON_TWO_PIN = 5;    // XIAO D3: shows/hides stats
 
+const int MIC_I2S_SD = 10;
+const int MIC_I2S_SCK = 21;
+const int MIC_I2S_WS = 20;
+// will work on this soon
+
+
 // Set this to false if your submission does not have a DHT11.
 const bool USE_DHT11 = true;
 
